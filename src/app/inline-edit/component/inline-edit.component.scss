@@ -1,0 +1,24 @@
+
+.inlineEditForm{
+ display: inline-block;
+ white-space: nowrap;
+ margin: 0;
+}
+#inlineEditWrapper{
+ display: inline-block;
+ width: 100%;
+}
+.inlineEditForm input, select {
+ // width: auto;
+ display: inline;
+}
+.editInvalid{
+ color: #a94442;
+ margin-bottom: 0;
+}
+.error{
+ border-color: #a94442;
+}
+[hidden] {
+ display: none;
+}

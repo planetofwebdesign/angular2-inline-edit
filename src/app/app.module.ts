@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { InlineEditModule } from "./inline-edit/inline-edit.module";
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    InlineEditModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  editableText = "hello" 
+
+  save(value: any) {
+    debugger;
+    console.log(value);
+  }
 }
