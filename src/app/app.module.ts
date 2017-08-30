@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { InlineEditModule } from "./inline-edit/inline-edit.module";
+import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    BubbleChartComponent
+],
   imports: [
     BrowserModule,
     FormsModule,
